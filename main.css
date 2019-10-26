@@ -6,38 +6,56 @@ body{
     background-color: lightgray;
 }
 
-main {
-    border-radius: 20px;
+.container {
+  display: flex;
+  flex-direction: row;
+  margin: 2% 20%;
+}
+
+.quiz-box {
     background-color: white;
     position: relative;
-    margin:  -500px 40px 0px 200px;
-    height: 600px;
-
+    float: right;
+    width: 600px; 
+    height: 700px;
+    margin: 10% 0% 0% -20%;
 }
 
 .image-box {
-    border-radius: 20px;
     background-color: gray;
-    position: relative;
-    margin:  60px 300px 0px 40px;
-    height: 600px;
-    padding-top: 60px;
-    
+    position: sticky;
+    float: left;
+    width: 500px; 
+    height: 400px;
+    margin: 5% 0% 0% 5%;
 }
 
 button {
     position: absolute;
     bottom: 10px;
     right: 10px;
-    height: 30px;
-    width: 80px;
+    height: 50px;
+    width: 150px;
     border-radius: 10px;
 }
 
 h2{
     background-color: gray;
-    height: 300px;
+    height: 80px;
     margin: 30px 10px;
     margin-top: 30px;
 }
+
+p {
+    background-color: gray;
+    height: 50%;
+    margin: 30px 10px;
+    margin-top: 30px;
+}
+
+@media only screen and (max-width: 920px) {
+   .container {
+        margin: 2% 2%; 
+      }
+  }
 
