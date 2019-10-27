@@ -6,6 +6,14 @@ body{
     background-color: lightgray;
 }
 
+.back-img{
+    background-color: lightgrey;
+}
+
+.intro{
+    margin: 100px 50px;
+}
+
 .container {
   display: flex;
   flex-direction: row;
