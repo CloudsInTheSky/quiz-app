@@ -7,11 +7,13 @@ body{
 }
 
 .back-img{
-    background-color: lightgrey;
+    background-color: grey;
 }
 
 .intro{
-    margin: 100px 50px;
+    position: relative;
+    margin: 100px 100px;
+    padding: 20px;
 }
 
 .container {
@@ -47,23 +49,55 @@ button {
     border-radius: 10px;
 }
 
-h2{
-    background-color: gray;
+h1{
+    background-color: grey;
+    height: 80px;
+    margin: 30px 10px;
+    margin-top: 30px;
+}
+
+#h1-start {
+    background-color: lightgrey;
     height: 80px;
     margin: 30px 10px;
     margin-top: 30px;
 }
 
 p {
-    background-color: gray;
+    background-color: grey;
     height: 50%;
+    width: 50%;
     margin: 30px 10px;
     margin-top: 30px;
 }
 
-@media only screen and (max-width: 920px) {
+#p-start{
+    background-color: lightgrey;
+    height: 10px;
+    width: auto;
+    padding: 40% 40%;
+    
+}
+
+@media only screen and (max-width: 900px) {
    .container {
         margin: 2% 2%; 
       }
+
+      .intro{
+        position: relative;
+        margin: 100px 100px;
+        padding: 20px;
+    }
   }
+
+  @media only screen and (min-width: 1024px) {
+ 
+       .intro{
+         position: relative;
+         margin: 100px 20%;
+         padding: 20px;
+     }
+   }
+ 
 
